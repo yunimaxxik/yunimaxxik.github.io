@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title or site.defaultTitle }}</title>
+<meta name="description" content="{{ description or site.defaultDescription }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="{{ title or site.defaultTitle }}">
+<meta property="og:description" content="{{ description or site.defaultDescription }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}{{ ogImage or site.defaultOgImage }}">
+<meta name="robots" content="{{ robots or 'index,follow' }}">
+<meta name="theme-color" content="#292827">
+{% if lcpImage %}<link rel="preload" as="image" href="{{ lcpImage }}" fetchpriority="high">{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/main.css">
+<script type="application/ld+json">{{ businessSchema | safe }}</script>
+{% if schema %}<script type="application/ld+json">{{ schema | safe }}</script>{% endif %}

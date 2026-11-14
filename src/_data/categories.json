@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "granitnye-pamyatniki",
+    "name": "Гранитные памятники",
+    "description": "Изготовление гранитных памятников различных форм и размеров.",
+    "image": "/assets/img/work-03.webp"
+  },
+  {
+    "slug": "mramornye-pamyatniki",
+    "name": "Мраморные памятники",
+    "description": "Памятники из мрамора по каталогу и индивидуальным эскизам.",
+    "image": "/assets/img/work-08.webp"
+  },
+  {
+    "slug": "musulmanskie-pamyatniki",
+    "name": "Мусульманские памятники",
+    "description": "Памятники по индивидуальным эскизам с учётом пожеланий семьи.",
+    "image": "/assets/img/work-04.webp"
+  },
+  {
+    "slug": "kompleksy",
+    "name": "Мемориальные комплексы",
+    "description": "Комплексное оформление и благоустройство места захоронения.",
+    "image": "/assets/img/work-15.webp"
+  },
+  {
+    "slug": "eksklyuzivnye-pamyatniki",
+    "name": "Эксклюзивные памятники",
+    "description": "Индивидуальные формы, декоративные элементы и гравировка.",
+    "image": "/assets/img/work-14.webp"
+  },
+  {
+    "slug": "granitnye-ogrady",
+    "name": "Гранитные ограды",
+    "description": "Оформление участка гранитными элементами.",
+    "image": "/assets/img/work-15.webp"
+  },
+  {
+    "slug": "stoly-i-skameyki",
+    "name": "Столы и скамейки",
+    "description": "Элементы благоустройства места захоронения.",
+    "image": "/assets/img/work-07.webp"
+  },
+  {
+    "slug": "vazy-i-plitka",
+    "name": "Вазы и плитка",
+    "description": "Плитка и декоративные элементы для оформления участка.",
+    "image": "/assets/img/work-03.webp"
+  },
+  {
+    "slug": "metallicheskie-ogrady",
+    "name": "Металлические ограды",
+    "description": "Ограды для оформления места захоронения.",
+    "image": "/assets/img/work-01.webp"
+  }
+]

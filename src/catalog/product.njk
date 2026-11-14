@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: products
+  size: 1
+  alias: product
+permalink: "/catalog/{{ product.category }}/{{ product.slug }}/"
+eleventyComputed:
+  title: "{{ product.name }} — изготовление в Оренбурге | Орен Мрамор"
+  description: "{{ product.shortDescription }} Размеры и цену уточняйте у специалистов Орен Мрамор в Оренбурге."
+---
+<section class="page-header"><div class="container"><nav class="breadcrumbs"><a href="/">Главная</a><span>›</span><a href="/catalog/">Каталог</a><span>›</span><a href="/catalog/{{ product.category }}/">{{ product.categoryName }}</a><span>›</span><span>{{ product.name }}</span></nav><h1>{{ product.name }}</h1></div></section>
+<section class="section"><div class="container product-detail"><div class="product-detail__image"><img src="{{ product.image }}" alt="Пример оформления памятника" width="900" height="1100" fetchpriority="high"><p class="media-note">{{ product.imageNote }}</p></div><div class="product-detail__info"><p class="product-detail__price">Стоимость по запросу</p><p>{{ product.description }}</p><p>Окончательную комплектацию, размеры, сроки и цену уточните у специалистов.</p><a class="btn btn--primary btn--large" href="/kontakty/">Уточнить стоимость</a> <a class="btn btn--outline" href="tel:{{ site.phoneRaw }}">{{ site.phone }}</a></div></div></section>
+<section class="section section--alt"><div class="container"><h2>Примеры выполненных работ</h2><div class="portfolio-grid">{% for work in works %}{% if loop.index <= 3 %}<a href="/portfolio/#{{ work.id }}" class="portfolio-card"><img src="{{ work.image }}" alt="{{ work.alt }}" width="450" height="550" loading="lazy"><span>{{ work.category }}</span></a>{% endif %}{% endfor %}</div></div></section>

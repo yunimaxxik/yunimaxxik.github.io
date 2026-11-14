@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+title: "Каталог памятников и благоустройства в Оренбурге | Орен Мрамор"
+description: "Гранитные и мраморные памятники, мусульманские памятники, комплексы, ограды, плитка и другие изделия. Каталог Орен Мрамор, Оренбург."
+---
+<section class="page-header"><div class="container"><nav class="breadcrumbs" aria-label="Хлебные крошки"><a href="/">Главная</a><span>›</span><span>Каталог</span></nav><h1>Каталог памятников и изделий</h1><p class="page-header__subtitle">Выберите направление. Размеры, материалы и стоимость уточняются для конкретного заказа.</p></div></section>
+<section class="section"><div class="container"><div class="categories">
+{% for item in categories %}<a class="category" href="/catalog/{{ item.slug }}/"><img class="category__image" src="{{ item.image }}" alt="Пример оформления памятника и участка" width="600" height="450" loading="lazy"><div class="category__body"><h2 class="category__title">{{ item.name }}</h2><p>{{ item.description }}</p></div></a>{% endfor %}
+</div><p class="media-note">Фотографии показывают примеры работ и оформления. Изображения не являются точными фотографиями всех изделий каталога.</p></div></section>
+<section class="section section--alt"><div class="container"><h2>Изготовление памятников на заказ</h2><p>Компания «Орен Мрамор» предлагает памятники из гранита и мрамора — от типовых вариантов до индивидуальных проектов. Возможны гравировка, доставка, установка и благоустройство участка. Для подбора изделия и расчёта стоимости <a href="/kontakty/">свяжитесь с нами</a>.</p><a class="btn btn--primary" href="/portfolio/">Посмотреть выполненные работы</a></div></section>

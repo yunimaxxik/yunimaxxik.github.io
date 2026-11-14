@@ -1,0 +1,13 @@
+{
+  "name": "oren-mramor",
+  "version": "1.0.0",
+  "description": "Сайт по изготовлению и установке памятников в Оренбурге",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -rf public"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

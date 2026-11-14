@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+title: "Страница не найдена — 404 | Орен Мрамор"
+description: "Такой страницы не существует. Вернитесь на главную или рассчитайте стоимость памятника."
+permalink: "/404.html"
+eleventyExcludeFromCollections: true
+robots: "noindex, follow"
+---
+
+<section class="section" style="text-align: center; padding: 100px 0;">
+  <div class="container" style="max-width: 600px;">
+    <h1 style="font-size: clamp(64px, 10vw, 120px); color: var(--color-accent); margin: 0; line-height: 1;">404</h1>
+    <h2 style="margin-top: 20px;">Страница не найдена</h2>
+    <p style="color: var(--color-text-muted); margin-bottom: 40px;">
+      Возможно, она была удалена или вы ошиблись в адресе. Но вы можете вернуться на главную, посмотреть каталог или сразу рассчитать стоимость.
+    </p>
+    <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+      <a href="/" class="btn btn--primary">На главную</a>
+      <a href="/catalog/" class="btn btn--outline">В каталог</a>
+      <a href="/calculator/" class="btn btn--outline">Калькулятор</a>
+    </div>
+  </div>
+</section>

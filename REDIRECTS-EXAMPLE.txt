@@ -1,0 +1,6 @@
+# Правила-примеры для Nginx (требуют проверки реальных старых URL и окружения):
+rewrite ^/post/katalog\.html$ /catalog/ permanent;
+rewrite ^/post/katalog/musulmanskie-pamyatniki\.html$ /catalog/musulmanskie-pamyatniki/ permanent;
+rewrite ^/post/katalog/3d-pamyatniki\.html$ /catalog/kompleksy/ permanent;
+# НЕ перенаправляйте все старые карточки на главную.
+# Сопоставьте точные URL товаров и перенесите карточки с их ценами, характеристиками и фотографиями.

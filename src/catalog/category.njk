@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: categories
+  size: 1
+  alias: category
+permalink: "/catalog/{{ category.slug }}/"
+eleventyComputed:
+  title: "{{ category.name }} в Оренбурге — изготовление и заказ | Орен Мрамор"
+  description: "{{ category.description }} Подбор, изготовление и установка в Оренбурге. Фото работ и контакты компании «Орен Мрамор»."
+---
+<section class="page-header"><div class="container"><nav class="breadcrumbs"><a href="/">Главная</a><span>›</span><a href="/catalog/">Каталог</a><span>›</span><span>{{ category.name }}</span></nav><h1>{{ category.name }} в Оренбурге</h1><p class="page-header__subtitle">{{ category.description }}</p></div></section>
+<section class="section"><div class="container"><div class="product-grid">
+{% for item in products %}{% if item.category == category.slug %}<a class="product-card" href="/catalog/{{ item.category }}/{{ item.slug }}/"><img class="product-card__image" src="{{ item.image }}" width="600" height="450" loading="lazy" alt="Пример оформления: {{ item.name }}"><div class="product-card__body"><h2 class="product-card__title">{{ item.name }}</h2><p class="product-card__price">Стоимость по запросу</p></div></a>{% endif %}{% endfor %}
+</div><div class="category-intro"><h2>Изготовление на заказ</h2><p>Форму, размер, породу камня, оформление и дополнительные работы подбираем индивидуально. Можно обсудить варианты по телефону, посмотреть <a href="/portfolio/">фотографии выполненных работ</a> или отправить запрос.</p><a class="btn btn--primary" href="/kontakty/">Уточнить стоимость</a></div><p class="media-note">Примеры на фотографиях не обязательно совпадают с моделями из каталога.</p></div></section>

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "work-01",
+    "image": "/assets/img/work-01.webp",
+    "large": "/assets/img/work-01-large.webp",
+    "alt": "Гранитный памятник с оградой и облицовкой участка",
+    "category": "Памятники и ограды"
+  },
+  {
+    "id": "work-02",
+    "image": "/assets/img/work-02.webp",
+    "large": "/assets/img/work-02-large.webp",
+    "alt": "Памятник с цветным портретом и плиткой",
+    "category": "Установка памятников"
+  },
+  {
+    "id": "work-03",
+    "image": "/assets/img/work-03.webp",
+    "large": "/assets/img/work-03-large.webp",
+    "alt": "Гранитный памятник с плиткой и столом",
+    "category": "Благоустройство"
+  },
+  {
+    "id": "work-04",
+    "image": "/assets/img/work-04.webp",
+    "large": "/assets/img/work-04-large.webp",
+    "alt": "Памятник с декоративной гравировкой",
+    "category": "Гравировка"
+  },
+  {
+    "id": "work-05",
+    "image": "/assets/img/work-05.webp",
+    "large": "/assets/img/work-05-large.webp",
+    "alt": "Два гранитных памятника на благоустроенном участке",
+    "category": "Мемориальные комплексы"
+  },
+  {
+    "id": "work-06",
+    "image": "/assets/img/work-06.webp",
+    "large": "/assets/img/work-06-large.webp",
+    "alt": "Памятник на гранитном основании с оградой",
+    "category": "Гранитные памятники"
+  },
+  {
+    "id": "work-07",
+    "image": "/assets/img/work-07.webp",
+    "large": "/assets/img/work-07-large.webp",
+    "alt": "Два памятника со столом и скамьёй",
+    "category": "Благоустройство"
+  },
+  {
+    "id": "work-08",
+    "image": "/assets/img/work-08.webp",
+    "large": "/assets/img/work-08-large.webp",
+    "alt": "Светлый памятник с декоративной скульптурой",
+    "category": "Памятники"
+  },
+  {
+    "id": "work-09",
+    "image": "/assets/img/work-09.webp",
+    "large": "/assets/img/work-09-large.webp",
+    "alt": "Двойной гранитный памятник с цветником",
+    "category": "Гранитные памятники"
+  },
+  {
+    "id": "work-10",
+    "image": "/assets/img/work-10.webp",
+    "large": "/assets/img/work-10-large.webp",
+    "alt": "Памятник с гранитным ограждением участка",
+    "category": "Благоустройство"
+  },
+  {
+    "id": "work-11",
+    "image": "/assets/img/work-11.webp",
+    "large": "/assets/img/work-11-large.webp",
+    "alt": "Плиты и заготовки в мастерской",
+    "category": "Производство"
+  },
+  {
+    "id": "work-12",
+    "image": "/assets/img/work-12.webp",
+    "large": "/assets/img/work-12-large.webp",
+    "alt": "Обработка камня в мастерской",
+    "category": "Производство"
+  },
+  {
+    "id": "work-13",
+    "image": "/assets/img/work-13.webp",
+    "large": "/assets/img/work-13-large.webp",
+    "alt": "Гранитный памятник с цветным портретом",
+    "category": "Гранитные памятники"
+  },
+  {
+    "id": "work-14",
+    "image": "/assets/img/work-14.webp",
+    "large": "/assets/img/work-14-large.webp",
+    "alt": "Памятник с декоративной фигурой ангела",
+    "category": "Эксклюзивные памятники"
+  },
+  {
+    "id": "work-15",
+    "image": "/assets/img/work-15.webp",
+    "large": "/assets/img/work-15-large.webp",
+    "alt": "Мемориальный комплекс с гранитной облицовкой",
+    "category": "Мемориальные комплексы"
+  },
+  {
+    "id": "work-16",
+    "image": "/assets/img/work-16.webp",
+    "large": "/assets/img/work-16-large.webp",
+    "alt": "Гранитный памятник с белым декоративным заполнением",
+    "category": "Гранитные памятники"
+  },
+  {
+    "id": "work-17",
+    "image": "/assets/img/work-17.webp",
+    "large": "/assets/img/work-17-large.webp",
+    "alt": "Памятник и благоустройство со столом и скамьёй",
+    "category": "Благоустройство"
+  }
+]

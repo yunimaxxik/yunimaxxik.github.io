@@ -1,0 +1,8 @@
+---
+layout: layouts/base.njk
+permalink: /portfolio/
+title: "Наши работы — фото памятников и благоустройства в Оренбурге | Орен Мрамор"
+description: "Фотографии изготовленных памятников, мемориальных комплексов, гравировки и благоустройства участков. Работы компании Орен Мрамор."
+---
+<section class="page-header"><div class="container"><nav class="breadcrumbs"><a href="/">Главная</a><span>›</span><span>Наши работы</span></nav><h1>Наши работы</h1><p class="page-header__subtitle">Примеры памятников, оформления участков и процесса обработки камня.</p></div></section>
+<section class="section"><div class="container"><div class="portfolio-grid">{% for work in works %}<figure class="portfolio-card" id="{{ work.id }}"><a href="{{ work.large }}" target="_blank" rel="noopener" aria-label="Открыть фото: {{ work.alt }}"><img src="{{ work.image }}" alt="{{ work.alt }}" width="900" height="1100" loading="lazy" decoding="async"></a><figcaption>{{ work.category }} — {{ work.alt }}</figcaption></figure>{% endfor %}</div><p class="media-note">Фотографии показывают примеры оформления. Цена, размеры и состав работ для каждого заказа рассчитываются отдельно.</p><p><a class="btn btn--primary" href="/kontakty/">Обсудить похожий проект</a></p></div></section>

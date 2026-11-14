@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: services
+  size: 1
+  alias: service
+permalink: "/uslugi/{{ service.slug }}/"
+eleventyComputed:
+  title: "{{ service.name }} в Оренбурге | Орен Мрамор"
+  description: "{{ service.shortDescription }} Условия и стоимость уточняйте по телефону в Оренбурге."
+---
+<section class="page-header"><div class="container"><nav class="breadcrumbs"><a href="/">Главная</a><span>›</span><a href="/uslugi/">Услуги</a><span>›</span><span>{{ service.name }}</span></nav><h1>{{ service.name }} в Оренбурге</h1><p class="page-header__subtitle">{{ service.shortDescription }}</p></div></section>
+<section class="section"><div class="container product-detail"><img src="{{ service.image }}" alt="Пример работы — {{ service.name }}" width="900" height="1100" loading="lazy"><div><h2>Описание услуги</h2><p>{{ service.description }}</p><p>Стоимость и срок выполнения зависят от объёма работ. Итоговые условия согласовываются отдельно.</p><a class="btn btn--primary" href="/kontakty/">Узнать стоимость</a><p class="media-note">Фото приведено как пример работ, не как иллюстрация конкретной услуги.</p></div></div></section>
+<section class="section section--alt"><div class="container"><h2>Другие услуги</h2><div class="services-grid">{% for other in services %}{% if other.slug != service.slug %}<a class="service-card service-card--compact" href="/uslugi/{{ other.slug }}/"><div class="service-card__body"><h3 class="service-card__title">{{ other.name }}</h3></div></a>{% endif %}{% endfor %}</div></div></section>

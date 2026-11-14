@@ -1,0 +1,12 @@
+<nav class="breadcrumbs" aria-label="Хлебные крошки">
+  <a href="/">Главная</a>
+  {%- if categoryName -%}
+    <span>›</span>
+    <a href="/catalog/">Каталог</a>
+    <span>›</span>
+    <span>{{ categoryName }}</span>
+  {%- else -%}
+    <span>›</span>
+    <span>Каталог</span>
+  {%- endif -%}
+</nav>
